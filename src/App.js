@@ -1,14 +1,16 @@
-import "./App.css";
+import "./index.css";
 import { Header } from "./components/header/Header.js";
-import { List } from "./components/list/List.js";
+import { ListForm } from "./components/list/ListForm.js";
+import { Footer } from "./components/footer/Footer.js";
 
 function App() {
   return (
     <section className="todoapp-header">
       <Header />
       <div className="todoapp">
-        <List />
+        <ListForm />
       </div>
+      <Footer />
     </section>
   );
 }
